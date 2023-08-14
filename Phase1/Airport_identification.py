@@ -25,9 +25,9 @@ airportImages = airport_details['airport']['pluginData']['details']['airportImag
 '''
 Step1:
 
-name = ...
-country = ...
-city = ...
+name = details['name']
+country = position['country']['name']
+city = position['region']['city']
 
 print("{} in: {} / {}".format(name, city, country))
 '''
